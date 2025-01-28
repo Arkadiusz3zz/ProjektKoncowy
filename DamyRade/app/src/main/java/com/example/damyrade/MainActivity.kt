@@ -66,7 +66,7 @@ import com.google.firebase.database.FirebaseDatabase
 import kotlinx.coroutines.launch
 import kotlin.math.abs
 
-data class UserRecord(val name: String = "", val record: Float = 0f)
+data class UserRecord(val name: String = "", val record: Int = 0)
 
 class MainActivity : ComponentActivity() {
 
@@ -116,7 +116,7 @@ class MainActivity : ComponentActivity() {
 
     // Zapis rekordu użytkownika w bazie danych Firebase
     fun saveRecord(userName: String, record: Float) {
-        val userRecord = mapOf("name" to userName, "record" to record)
+        val userRecord = mapOf("name" to userName, "record" to record.toInt())
         database.child("users").child(auth.currentUser!!.uid).setValue(userRecord)
             .addOnSuccessListener {
                 Log.d("Firebase", "Zapis rekordu powiódł się")
