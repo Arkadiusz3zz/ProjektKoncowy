@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "514513222530",
+    "project_id": "projektandroid-8167c",
+    "storage_bucket": "projektandroid-8167c.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:514513222530:android:6666760c0349d66ee0ed9b",
+        "android_client_info": {
+          "package_name": "com.example.damyrade"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "514513222530-u1rbj6fgt3fp02ugmi6enr91e1mn5m7c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.damyrade",
+            "certificate_hash": "a46b1f2bb9914f8e0032838876324183e9841f79"
+          }
+        },
+        {
+          "client_id": "514513222530-5dalmf3jj75o2pkjcf836ifhum1q0vgo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdOg0vs2JUcITV4CPM11MPPSXPKrO7Tj8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "514513222530-5dalmf3jj75o2pkjcf836ifhum1q0vgo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
